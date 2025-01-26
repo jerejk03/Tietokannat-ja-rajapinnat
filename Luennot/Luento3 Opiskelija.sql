@@ -1,0 +1,13 @@
+show databases;
+use database2;
+show tables;
+select * from opiskelija;
+insert into opiskelija values(null,'Roope','Ankka','TVT24SPL',null);
+select * from opiskelija;
+insert into opiskelija values(null,'Aku','Ankka','TVT24SPL',null);
+select * from opiskelija;
+select * from opintojakso;
+insert into opintojakso values(null,'Tietokannat ja rajapinnat','IC00CS0123',5);
+select * from opintojakso;
+insert into opintojakso values(null,'Matematiikka','IC002345',5);
+select * from arviointi;
